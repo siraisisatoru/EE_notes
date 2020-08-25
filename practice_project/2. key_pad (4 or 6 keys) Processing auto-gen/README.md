@@ -1,6 +1,10 @@
 # attiny85 KeyPad Configerator
 This project is used to generate arduino code to configure the keypad key mapping and animation mapping when the key is pressed.
 
+# !!!!!! before you try out this project, please burn a bootloader to your digispark / attiny85 in order to disable the reset pin to output the led signal !!!!!!
+
+For the details, you may try to google how burn and where is the bootloader you needed. The programmes will not work or having unexpected result if you are not disabling the reseting pin.
+
 # How to handle low frame rate problem
 There are some possible issues that may cost low frame rate. Mainly because of high CPU usage by other programmes. There are some points may able to resolve the issue.
 
